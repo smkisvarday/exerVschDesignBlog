@@ -1,0 +1,117 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  
+
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #2b92b1;
+  }
+
+  .fixed-nav-bar > p {
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+ .fixed-nav-bar > a {
+   margin-right: 20px;
+ }
+
+
+ .banda {
+   width: 350px;
+ }
+
+ .handprint {
+   width: 450px;
+ }
+
+ .drumming {
+  width: 350px;
+}
+
+.thumbnail {
+  width: 100px;
+}
+
+
+.wrap {
+  margin: 150px auto;
+  width: 50%;
+  padding: 8px;
+}
+
+.img {
+  float: left;
+  margin-right: 10px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.drumming {
+  float: left;
+  padding: 0 10px 0 0;
+}
